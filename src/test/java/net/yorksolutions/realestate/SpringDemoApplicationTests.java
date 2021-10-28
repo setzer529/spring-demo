@@ -54,7 +54,7 @@ class SpringDemoApplicationTests {
         String testValue = "Madison";
         String baseURL = "http://localhost:"+ port + "/realestate/";
 
-        //INCLUDE THE FOLLOWING IF NO ROW WITH THE TEST VALUE EXISTS
+//        INCLUDE THE FOLLOWING IF NO ROW WITH THE TEST VALUE EXISTS
 //        RealEstate realEstate = new RealEstate();
 //        realEstate.setFname(testValue);
 //        String response = restTemplate.postForObject(baseURL + "add", realEstate, String.class);
